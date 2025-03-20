@@ -64,7 +64,7 @@ First we need to setup a Group Policy to lockout accounts that recieve bad passw
 <p>
 <img src="https://github.com/user-attachments/assets/9737a13b-6c5c-4043-8588-3dc1547bd344"/>
 </p>
-To observe the logs, type 'eventvwr.msc' into start → search bar. Expand the Windows Logs and click Security. From here you can observe all the security events that took place in the domain, such as all the bad password attempts, the successful login attempts, and the disabling/enabling. 
+To observe the logs, type 'eventvwr.msc' into start → search bar. Expand the Windows Logs and click Security. From here you can observe all the security events that took place in the domain, such as all the bad password attempts or the successful login attempts. 
 <ol>
   <li>Observe the Logs on DC-1</li>
   <li>Observe the Logs on Client-1 (run as an Admin)</li>
